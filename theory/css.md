@@ -283,3 +283,5 @@ animation: ejemplo 2s infinite;
 - Agrupa por componentes o secciones
 
 - Elimina código no usado
+
+- Los navegadores tienes estilos por defecto
