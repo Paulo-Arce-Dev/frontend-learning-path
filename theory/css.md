@@ -4,7 +4,7 @@
 
 ---
 
-## 📂 2. Tipos de CSS
+## 2. Tipos de CSS
 
 - **Inline CSS**: en la etiqueta HTML.  
   Ej: `<p style="color: red;">Texto</p>`
@@ -15,7 +15,7 @@
 
 ---
 
-## ⚙️ 3. Selectores
+## 3. Selectores
 
 ### 🔹 Básicos
 
@@ -57,7 +57,7 @@
 
 ---
 
-## 🧱 4. Especificidad y Cascada
+## 4. Especificidad y Cascada
 
 - Regla de oro: **más específico = más prioridad**.
 
@@ -72,7 +72,7 @@
 
 ---
 
-## 🧮 5. Unidades
+## 5. Unidades
 
 - **Relativas**:
 
@@ -92,7 +92,7 @@
 
 ---
 
-## 🪟 6. Modelo de Caja (Box Model)
+## 6. Modelo de Caja (Box Model)
 
 Cada elemento tiene:
 
@@ -111,7 +111,7 @@ box-sizing: border-box; /* recomendado */
 
 ---
 
-## 🎨 7. Propiedades Comunes
+## 7. Propiedades Comunes
 
 ### 🖌️ Textos
 
@@ -119,19 +119,19 @@ box-sizing: border-box; /* recomendado */
 color, font-size, font-family, font-weight, line-height, text-align, text-transform, letter-spacing, word-spacing
 ```
 
-### 📐 Tamaño y Espaciado
+### Tamaño y Espaciado
 
 ```css
 width, height, max-width, min-height, margin, padding
 ```
 
-### 🧱 Bordes y Fondo
+### Bordes y Fondo
 
 ```css
 border, border-radius, background-color, background-image, background-size, background-position
 ```
 
-### 📦 Display y Posicionamiento
+### Display y Posicionamiento
 
 ```css
 display: block | inline | inline-block | flex | grid | none;
@@ -141,7 +141,7 @@ top, right, bottom, left, z-index
 
 ---
 
-## 🔄 8. Flexbox
+## 8. Flexbox
 
 Sistema de diseño unidimensional.
 
@@ -163,7 +163,7 @@ flex-grow, flex-shrink, flex-basis, align-self, order
 
 ---
 
-## 🔳 9. Grid
+## 9. Grid
 
 Sistema de diseño bidimensional.
 
@@ -186,7 +186,7 @@ grid-area: header;
 
 ---
 
-## 🎯 10. Responsive Design
+## 10. Responsive Design
 
 ### Media Queries
 
@@ -208,7 +208,7 @@ grid-area: header;
 
 ---
 
-## 🌈 11. Colores
+## 11. Colores
 
 - Nombres: `red`, `blue`
 
@@ -222,7 +222,7 @@ grid-area: header;
 
 ---
 
-## 🎬 12. Transiciones y Animaciones
+## 12. Transiciones y Animaciones
 
 ### Transiciones
 
@@ -246,7 +246,7 @@ animation: ejemplo 2s infinite;
 
 ---
 
-## 🧪 13. Herramientas y Buenas Prácticas
+## 13. Herramientas y Buenas Prácticas
 
 - Usar `normalize.css` o `reset.css`
 
@@ -260,7 +260,7 @@ animation: ejemplo 2s infinite;
 
 ---
 
-## 🧰 14. Herramientas Modernas
+## 14. Herramientas Modernas
 
 - **Preprocesadores**: Sass, Less
 
@@ -272,7 +272,7 @@ animation: ejemplo 2s infinite;
 
 ---
 
-## 🧠 15. Buenas Prácticas
+## 15. Buenas Prácticas
 
 - Mantén el CSS limpio y organizado
 
