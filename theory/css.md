@@ -1,6 +1,4 @@
-# 🎨 Apuntes Profesionales de CSS
-
-## 📌 1. ¿Qué es CSS?
+# CSS
 
 **CSS (Cascading Style Sheets)** es el lenguaje que se utiliza para describir la presentación de documentos HTML. Controla el diseño visual: colores, fuentes, espaciado, disposición, animaciones, etc.
 
