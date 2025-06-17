@@ -1,0 +1,21 @@
+Día 1: Ejercicios
+
+1. Escribe un comentario de una sola línea que diga: los comentarios pueden hacer que el código sea legible
+
+2. Escribe otro comentario de una sola línea que diga: Bienvenido a 30DíasDeJavaScript
+
+3. Escribe un comentario multilínea que diga: los comentarios pueden hacer que el código sea legible, fácil de reutilizar e informativo
+
+4. Crea un archivo llamado variable.js y declara variables asignando los siguientes tipos de datos: string, booleano, undefined y null
+
+5. Crea un archivo llamado datatypes.js y utiliza el operador typeof de JavaScript para verificar diferentes tipos de datos. Verifica el tipo de cada variable
+
+6. Declara cuatro variables sin asignarles valores
+
+7. Declara cuatro variables con valores asignados
+
+8. Declara variables para almacenar tu nombre, apellido, estado civil, país y edad en líneas separadas
+
+9. Declara variables para almacenar tu nombre, apellido, estado civil, país y edad en una sola línea
+
+10. Declara dos variables llamadas myAge y yourAge, asígnales valores iniciales y muéstralos en la consola del navegador

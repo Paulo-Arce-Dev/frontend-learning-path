@@ -1,0 +1,131 @@
+Día 3: Ejercicios
+
+==============================
+Ejercicios: Nivel 1
+==============================
+
+1. Declara las variables: firstName, lastName, country, city, age, isMarried, year y usa el operador typeof para comprobar sus tipos de datos.
+2. Verifica si el tipo de '10' es igual a 10.
+3. Verifica si parseInt('9.8') es igual a 10.
+4. El valor booleano es verdadero o falso. Escribe tres sentencias en JavaScript que proporcionen un valor verdadero.
+5. Escribe tres sentencias en JavaScript que proporcionen un valor falso.
+
+Compara y deduce el resultado de las siguientes expresiones **sin usar console.log()**. Luego confirma tu respuesta usando console.log():
+
+- 4 > 3
+- 4 >= 3
+- 4 < 3
+- 4 <= 3
+- 4 == 4
+- 4 === 4
+- 4 != 4
+- 4 !== 4
+- 4 != '4'
+- 4 == '4'
+- 4 === '4'
+
+6. Compara la longitud de las palabras "python" y "jargon" e intenta hacer una comparación falsa con ellas.
+
+Evalúa las siguientes expresiones (primero sin console.log, luego confirma con console.log):
+
+- 4 > 3 && 10 < 12
+- 4 > 3 && 10 > 12
+- 4 > 3 || 10 < 12
+- 4 > 3 || 10 > 12
+- !(4 > 3)
+- !(4 < 3)
+- !(false)
+- !(4 > 3 && 10 < 12)
+- !(4 > 3 && 10 > 12)
+- !(4 === '4')
+
+7. Verifica que no hay 'on' tanto en "dragon" como en "python".
+
+8. Usa el objeto Date para lo siguiente:
+   - ¿Cuál es el año actual?
+   - ¿Cuál es el mes actual (como número)?
+   - ¿Cuál es la fecha de hoy?
+   - ¿Cuál es el día de la semana (como número)?
+   - ¿Qué hora es ahora?
+   - ¿Qué minutos son ahora?
+   - ¿Cuántos segundos han pasado desde el 1 de enero de 1970 hasta ahora?
+
+==============================
+Ejercicios: Nivel 2
+==============================
+
+1. Escribe un script que solicite al usuario ingresar base y altura de un triángulo, y calcule el área:
+   Ejemplo:
+   - Ingresar base: 20
+   - Ingresar altura: 10
+   - Resultado: El área del triángulo es 100
+
+2. Solicita al usuario los lados a, b y c de un triángulo y calcula el perímetro:
+   Ejemplo:
+   - Lado a: 5
+   - Lado b: 4
+   - Lado c: 3
+   - Resultado: El perímetro es 12
+
+3. Solicita largo y ancho y calcula el área y el perímetro de un rectángulo.
+
+4. Solicita el radio y calcula el área y la circunferencia de un círculo.
+   - área = π * r²
+   - circunferencia = 2 * π * r
+   - Usa π = 3.14
+
+5. Calcula la pendiente (m), el intercepto x e intercepto y de la recta: y = 2x - 2
+
+6. Calcula la pendiente entre los puntos (2,2) y (6,10) usando:
+   m = (y2 - y1)/(x2 - x1)
+
+7. Compara ambas pendientes.
+
+8. Calcula el valor de y usando la función: y = x² + 6x + 9
+   - Prueba con distintos valores de x para ver cuándo y = 0.
+
+9. Escribe un script que solicite al usuario las horas trabajadas y el pago por hora, y calcule el salario.
+
+   Ejemplo:
+   - Ingresar horas: 40
+   - Ingresar pago por hora: 28
+   - Resultado: Tu salario semanal es 1120
+
+10. Si la longitud de tu nombre es mayor a 7, imprime "Tu nombre es largo", de lo contrario, "Tu nombre es corto".
+
+11. Compara las longitudes de tu nombre y apellido:
+
+   Ejemplo:
+   let firstName = 'Asabeneh'
+   let lastName = 'Yetayeh'
+   Resultado: Tu primer nombre, Asabeneh, es más largo que tu apellido, Yetayeh
+
+12. Declara dos variables: myAge y yourAge y asígnales valores:
+
+   let myAge = 250
+   let yourAge = 25
+   Resultado: Tengo 225 años más que vos.
+
+13. Usando prompt, solicita el año de nacimiento al usuario. Si tiene 18 o más, permite conducir. Si no, dile cuánto falta:
+
+   Ejemplo:
+   - Año de nacimiento: 1995 → Tienes 30 años. Puedes conducir.
+   - Año de nacimiento: 2008 → Tienes 17 años. Podrás conducir en 1 año.
+
+14. Solicita al usuario los años que espera vivir y calcula cuántos segundos vivirá:
+   - Supón que vive 100 años
+   - 1 año = 31,536,000 segundos
+
+15. Crea formatos de fecha legibles con el objeto Date:
+   - YYYY-MM-DD HH:mm
+   - DD-MM-YYYY HH:mm
+   - DD/MM/YYYY HH:mm
+
+==============================
+Ejercicios: Nivel 3
+==============================
+
+1. Crea un formato de hora legible con el objeto Date, donde la hora y minutos tengan siempre dos dígitos (por ejemplo: 07:05):
+
+   - YYYY-MM-DD HH:mm
+   - Ejemplo: 2025-01-02 07:05

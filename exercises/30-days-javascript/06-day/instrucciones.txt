@@ -1,0 +1,155 @@
+Ejercicios: Día 6
+
+Ejercicios: Nivel 1
+
+const countries = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya'
+]
+
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+
+const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+
+1. Iterar de 0 a 10 usando un bucle for, repetir usando while y do while.
+2. Iterar de 10 a 0 usando un bucle for, repetir usando while y do while.
+3. Iterar de 0 a n usando un bucle for.
+4. Escribir un bucle que imprima el siguiente patrón con console.log():
+    #
+    ##
+    ###
+    ####
+    #####
+    ######
+    #######
+5. Usar un bucle para imprimir el siguiente patrón:
+    0 x 0 = 0
+    1 x 1 = 1
+    2 x 2 = 4
+    3 x 3 = 9
+    4 x 4 = 16
+    5 x 5 = 25
+    6 x 6 = 36
+    7 x 7 = 49
+    8 x 8 = 64
+    9 x 9 = 81
+    10 x 10 = 100
+6. Usar un bucle para imprimir la siguiente tabla:
+    i    i^2   i^3
+    0    0     0
+    1    1     1
+    2    4     8
+    3    9     27
+    4    16    64
+    5    25    125
+    6    36    216
+    7    49    343
+    8    64    512
+    9    81    729
+    10   100   1000
+7. Usar un bucle for para iterar de 0 a 100 e imprimir solo números pares.
+8. Usar un bucle for para iterar de 0 a 100 e imprimir solo números impares.
+9. Usar un bucle for para iterar de 0 a 100 e imprimir solo números primos.
+10. Usar un bucle for para iterar de 0 a 100 e imprimir la suma de todos los números.
+    La suma de todos los números de 0 a 100 es 5050.
+11. Usar un bucle for para iterar de 0 a 100 e imprimir la suma de todos los pares y la suma de todos los impares.
+    La suma de todos los pares de 0 a 100 es 2550. Y la suma de todos los impares de 0 a 100 es 2500.
+12. Usar un bucle for para iterar de 0 a 100 e imprimir la suma de todos los pares y la suma de todos los impares.
+    Imprimir la suma de pares y la suma de impares como un array:
+    [2550, 2500]
+13. Desarrollar un pequeño script que genere un array de 5 números aleatorios.
+14. Desarrollar un pequeño script que genere un array de 5 números aleatorios y los números deben ser únicos.
+15. Desarrollar un pequeño script que genere un id aleatorio de seis caracteres, por ejemplo:
+    5j2khz
+
+Ejercicios: Nivel 2
+
+16. Desarrollar un script que genere un id aleatorio de cualquier cantidad de caracteres, por ejemplo:
+    fe3jo1gl124g
+    xkqci4utda1lmbelpkm03rba
+17. Escribir un script que genere un número hexadecimal aleatorio, por ejemplo:
+    '#ee33df'
+18. Escribir un script que genere un color rgb aleatorio, por ejemplo:
+    rgb(240,180,80)
+19. Usando el array countries anterior, crear un nuevo array con los países en mayúsculas:
+    ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+20. Usando el array countries, crear un array con la longitud de cada país:
+    [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
+21. Usar el array countries para crear un array de arrays con formato:
+    [
+      ['Albania', 'ALB', 7],
+      ['Bolivia', 'BOL', 7],
+      ['Canada', 'CAN', 6],
+      ['Denmark', 'DEN', 7],
+      ['Ethiopia', 'ETH', 8],
+      ['Finland', 'FIN', 7],
+      ['Germany', 'GER', 7],
+      ['Hungary', 'HUN', 7],
+      ['Ireland', 'IRE', 7],
+      ['Iceland', 'ICE', 7],
+      ['Japan', 'JAP', 5],
+      ['Kenya', 'KEN', 5]
+    ]
+22. En el array countries, verificar si hay países que contienen la palabra 'land'. Si existen, imprimirlos como array; si no, imprimir:
+    'All these countries are without land'
+    Resultado esperado:
+    ['Finland','Ireland', 'Iceland']
+23. En el array countries, verificar si hay países que terminan con la subcadena 'ia'. Si existen, imprimirlos como array; si no, imprimir:
+    'These are countries ends without ia'
+    Resultado esperado:
+    ['Albania', 'Bolivia','Ethiopia']
+24. Usando el array countries, encontrar el país con el mayor número de caracteres.
+    Resultado esperado:
+    Ethiopia
+25. Usando el array countries, encontrar los países que tienen solo 5 caracteres.
+    Resultado esperado:
+    ['Japan', 'Kenya']
+26. Encontrar la palabra más larga en el array webTechs.
+27. Usar el array webTechs para crear un array de arrays con el formato:
+    [["HTML", 4], ["CSS", 3], ["JavaScript", 10], ["React", 5], ["Redux", 5], ["Node", 4], ["MongoDB", 7]]
+28. Una aplicación creada usando MongoDB, Express, React y Node se llama MERN stack. Crear el acrónimo MERN usando el array mernStack.
+29. Iterar el array ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] usando un bucle for o for of y mostrar los elementos.
+30. Dado el array de frutas ['banana', 'orange', 'mango', 'lemon'], invertir el orden usando un bucle sin usar el método reverse.
+31. Imprimir todos los elementos del array:
+    const fullStack = [
+      ['HTML', 'CSS', 'JS', 'React'],
+      ['Node', 'Express', 'MongoDB']
+    ]
+    Resultado esperado:
+    HTML
+    CSS
+    JS
+    REACT
+    NODE
+    EXPRESS
+    MONGODB
+
+Ejercicios: Nivel 3
+
+32. Copiar el array countries sin mutarlo.
+33. Las arrays son mutables. Crear una copia del array que no modifique el original. Ordenar la copia y guardarla en la variable sortedCountries.
+34. Ordenar el array webTechs y el array mernStack.
+35. Extraer todos los países que contienen la palabra 'land' del array countries e imprimirlos como array.
+36. Encontrar el país con el mayor número de caracteres en el array countries.
+37. Extraer todos los países que contienen la palabra 'land' del array countries e imprimirlos como array.
+38. Extraer todos los países que contienen solo cuatro caracteres del array countries e imprimirlos como array.
+39. Extraer todos los países que contienen dos o más palabras del array countries e imprimirlos como array.
+40. Invertir el array countries, convertir cada país a mayúsculas y guardarlo como un array.
+

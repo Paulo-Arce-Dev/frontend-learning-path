@@ -1,0 +1,147 @@
+Ejercicio Día 5
+
+==============================
+Ejercicio: Nivel 1
+==============================
+
+const countries = [
+  'Albania',
+  'Bolivia',
+  'Canadá',
+  'Dinamarca',
+  'Etiopía',
+  'Finlandia',
+  'Alemania',
+  'Hungría',
+  'Irlanda',
+  'Japón',
+  'Kenia'
+]
+
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+
+1. Declara un arreglo vacío;
+
+2. Declara un arreglo con más de 5 elementos;
+
+3. Encuentra la longitud de tu arreglo;
+
+4. Obtén el primer ítem, el ítem del medio y el último ítem del arreglo;
+
+5. Declara un arreglo llamado mixedDataTypes, pon diferentes tipos de datos en el arreglo y encuentra la longitud del arreglo. El tamaño del arreglo debe ser mayor que 5;
+
+6. Declara una variable arreglo llamada itCompanies y asigna los valores iniciales: Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon;
+
+7. Imprime el arreglo usando console.log();
+
+8. Imprime el número de compañías en el arreglo;
+
+9. Imprime la primera compañía, la compañía del medio y la última compañía;
+
+10. Imprime cada compañía;
+
+11. Cambia cada nombre de compañía a mayúsculas uno por uno e imprímelos;
+
+12. Imprime el arreglo como una oración:  
+    Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon son grandes compañías de TI.
+
+13. Verifica si cierta compañía existe en el arreglo itCompanies. Si existe, retorna el nombre de la compañía, si no, retorna "compañía no encontrada";
+
+14. Filtra las compañías que tienen más de una 'o' sin usar el método filter;
+
+15. Ordena el arreglo usando el método sort();
+
+16. Invierte el arreglo usando el método reverse();
+
+17. Extrae las primeras 3 compañías del arreglo usando slice;
+
+18. Extrae las últimas 3 compañías del arreglo usando slice;
+
+19. Extrae la(s) compañía(s) del medio del arreglo usando slice;
+
+20. Elimina la primera compañía del arreglo;
+
+21. Elimina la(s) compañía(s) del medio del arreglo;
+
+22. Elimina la última compañía del arreglo;
+
+23. Elimina todas las compañías del arreglo.
+
+==============================
+Ejercicio: Nivel 2
+==============================
+
+1. Crea un archivo separado countries.js y guarda el arreglo countries en este archivo.  
+   Crea un archivo separado web_techs.js y guarda el arreglo webTechs en ese archivo.  
+   Accede a ambos archivos desde main.js.
+
+2. Primero elimina toda la puntuación, convierte la cadena en un arreglo y cuenta el número de palabras en el arreglo:
+
+let text =  
+'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'  
+console.log(words)  
+console.log(words.length)  
+
+Salida esperada:  
+["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]  
+13
+
+3. En el carrito de compras a continuación, agrega, elimina y modifica ítems:
+
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+
+- Agrega 'Meat' al inicio del carrito si aún no ha sido agregado.  
+- Agrega 'Sugar' al final del carrito si aún no ha sido agregado.  
+- Elimina 'Honey' si eres alérgico a la miel.  
+- Modifica 'Tea' a 'Green Tea'.
+
+4. En el arreglo countries, verifica si 'Ethiopia' existe en el arreglo.  
+   Si existe, imprime 'ETHIOPIA'.  
+   Si no existe, agrégalo a la lista de países.
+
+5. En el arreglo webTechs, verifica si 'Sass' existe.  
+   Si existe, imprime 'Sass es un preprocesador CSS'.  
+   Si no existe, agrégalo al arreglo y luego imprime el arreglo.
+
+6. Concatena las siguientes dos variables y almacénalas en una variable fullStack:
+
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']  
+const backEnd = ['Node', 'Express', 'MongoDB']
+
+console.log(fullStack)  
+
+Salida esperada:  
+["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
+
+==============================
+Ejercicio: Nivel 3
+==============================
+
+Dado el siguiente arreglo con edades de 10 estudiantes:
+
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+1. Ordena el arreglo y encuentra la edad mínima y máxima;
+
+2. Encuentra la mediana (el ítem o los dos ítems del medio divididos entre dos);
+
+3. Encuentra la edad promedio (suma de todas las edades dividida entre el número de elementos);
+
+4. Encuentra el rango de edades (edad máxima menos edad mínima);
+
+5. Compara el valor de (mínimo - promedio) y (máximo - promedio), usando el método abs();
+
+6. Extrae los primeros diez países del arreglo countries;
+
+7. Encuentra el/los país(es) del medio en el arreglo countries;
+
+8. Divide el arreglo countries en dos arreglos iguales si tiene cantidad par.  
+   Si el arreglo countries no tiene cantidad par, asigna un país más al primer arreglo.
