@@ -63,11 +63,18 @@ let ultimaA = challenge.lastIndexOf("a");
 console.log(ultimaA);
 
 // 17
-let;
+let frase =
+  "You cannot end a sentence with because because because is a conjunction";
+let encontrarPalabra = frase.indexOf("because");
+console.log(encontrarPalabra);
 
 // 18
+let ultimaAparicionPalabra = frase.lastIndexOf("because");
+console.log(ultimaAparicionPalabra);
 
 // 19
+let primeraAparicionDeBecause = frase.search("because");
+console.log(primeraAparicionDeBecause);
 
 // 20
 
