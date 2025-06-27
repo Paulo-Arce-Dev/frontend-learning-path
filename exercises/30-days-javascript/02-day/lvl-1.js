@@ -77,6 +77,8 @@ let primeraAparicionDeBecause = frase.search("because");
 console.log(primeraAparicionDeBecause);
 
 // 20
+let challenge2 = " 30 Days Of JavaScript ";
+let eliminandoEspacios = challenge2.trim(" ");
 
 // 21
 

@@ -1,0 +1,205 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+  background: #222;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f0c040;
+}
+
+/* Header */
+header {
+  background: url("header-bg.jpg") center/cover no-repeat;
+  color: rgb(41, 40, 40);
+  text-align: center;
+  padding: 120px 20px;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeSlideIn 1s forwards;
+}
+
+header h1 {
+  font-size: 3.5rem;
+}
+
+header p {
+  margin: 20px 0;
+  font-size: 1.3rem;
+}
+
+.btn {
+  background: #f0c040;
+  color: #333;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #e0b030;
+  transform: scale(1.05);
+}
+
+/* Secciones */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+  position: relative;
+}
+
+section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #f0c040;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Clientes */
+.client-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.client-gallery img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.client-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Precios */
+#precios ul {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#precios li {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#precios li:hover {
+  transform: translateY(-5px);
+}
+
+/* Ubicación */
+#ubicacion iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 300px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+footer a {
+  color: #f0c040;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Animaciones */
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .gallery img {
+    width: 90%;
+    height: auto;
+  }
+
+  #precios li {
+    font-size: 1rem;
+  }
+}
